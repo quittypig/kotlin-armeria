@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.example.account.v1;
+
+import "com/example/account/v1/SignUpV1.proto";
+
+service AccountRouteV1 {
+  rpc signUpV1(SignUpRequestV1) returns (SignUpResponseV1) { }
+}
