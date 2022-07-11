@@ -3,3 +3,5 @@
 /app/build/
 /protobuf/build/
 /protobuf/build/classes/java/main/
+/build/
+/.idea/
