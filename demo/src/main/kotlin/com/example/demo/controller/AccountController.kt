@@ -15,7 +15,7 @@ class AccountController(
 ) {
     @ResponseBody
     @PostMapping("/account")
-    fun getAccountId(
+    fun signUp(
         @RequestBody signUpRequest: SignUpRequest
     ): SignUpResponse {
         val signUpRequestV1 = SignUpRequestV1.newBuilder()
