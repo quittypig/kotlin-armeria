@@ -21,7 +21,13 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+
+    implementation(project(":protobuf"))
+    implementation("com.linecorp.armeria:armeria:1.9.2")
+    implementation("com.linecorp.armeria:armeria-grpc:1.9.2")
+
     developmentOnly("org.springframework.boot:spring-boot-devtools")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
